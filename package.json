@@ -1,0 +1,20 @@
+{
+  "name": "desktop",
+  "version": "0.0.1",
+  "description": "app for balance management",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "googleapis": "^39.2.0",
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {
+    "electron": "^8.2.5"
+  }
+}

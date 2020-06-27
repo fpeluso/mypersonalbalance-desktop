@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Balance</title>
+    <link rel="stylesheet" href="../../lib/bootstrap/4.4.1/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div id="require-auth" class="container" style="margin-top: 100px">
+        L'app richiede l'autorizzazione ad usare il tuo google drive. Per fornire l'autorizzazione cliccare sul seguente
+        link:
+    </div>
+    <div id="memorize-token" class="container" style="margin-top: 100px; display: none;">
+        <form id="token-form">
+            <div class="row">
+                <div class="col-sm-3">
+                    <label for="storeCode">Inserisci codice:</label>
+                </div>
+                <div class="col">
+                    <input id="storeCode" type="text" class="form-control" placeholder="codice">
+                </div>
+            </div>
+            <button id="storeBtn" class="btn btn-primary" type="submit" style="margin-top: 5px;">Genera token</button>
+        </form>
+    </div>
+    <script src="./auth-logic.js"></script>
+</body>
+
+</html>
